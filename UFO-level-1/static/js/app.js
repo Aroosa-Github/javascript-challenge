@@ -1,4 +1,4 @@
-// // from data.js
+
 
 // / YOUR CODE HERE!
 
@@ -8,14 +8,14 @@ var tableData = data;
 //table references
 var tbody = d3.select("tbody");
 
-// Building Functions for the table
+
   // Build the table
 function buildTable(data) {
   // Clean out everything
   tbody.html("");
 
   // Loops
-    // Data loop
+    
   data.forEach((dataRow) => {
     var row = tbody.append("tr");
     // Table Cell Loop
